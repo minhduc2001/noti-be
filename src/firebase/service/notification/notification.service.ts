@@ -47,8 +47,8 @@ export class FirebaseNotificationService {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': 'key=AAAA6JEZ2NE:APA91bFM5Ce7pKDtnM9lk1r9ie3YI9gm6TRr7WZCg4DevE8xEO5D-yD3d0O_asuerk2Ip_ziREsBVtVIIqucOiTXV9o62Mb0Da0i_6EI9C7ZcmFluREaqLUoCn9EdrctLaDTDhD58nJt',
-        'project_id': '998866802897'
+        'Authorization': 'key=',
+        'project_id': ''
       },
       json: {
         operation: 'create',
