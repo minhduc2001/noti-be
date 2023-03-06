@@ -13,6 +13,11 @@ export class UserController {
         return this.service.login(body);
     }
 
+    @Get('test')
+    async test(){
+        return 'tests ok';
+    }
+
     @Post('register')
     async register(@Body() body: any) {
 
@@ -30,6 +35,7 @@ export class UserController {
 
         return this.service.addDeviceGroup(body.groupName)
     }
+
 
     @Post('send-group-noti')
     async sendGroupDevice(@Body() body: any) {
